@@ -80,15 +80,23 @@ i.icon-log{
     transition: all 0.5s ease-in-out;
 }
 
-.btn-register{
+.btn-register-login{
     color: var(--gray);
 
 }
 
-.btn-register:hover{
+.btn-register-login:hover{
     color: var(--rich-black);
     font-weight: var(--bolder);
 
+}
+
+/*cellphones*/
+@media (max-width:576px){
+    .login-form{
+        width: 100%;
+        border-radius: 0;
+    }
 }
 
 /*REGISTER*/
